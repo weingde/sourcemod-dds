@@ -1,0 +1,264 @@
+"Phrases"
+{
+	/********************************
+	 * 공통 (Common)
+	 ********************************/
+	"global class"
+	{
+		"ko"				"등급"
+	}
+
+	"global nickname"
+	{
+		"ko"				"닉네임"
+	}
+
+	"global authid"
+	{
+		"ko"				"인증번호"
+	}
+
+	"global confirm"
+	{
+		"ko"				"확인"
+	}
+
+	"global cancel"
+	{
+		"ko"				"취소"
+	}
+
+	"global nothing"
+	{
+		"ko"				"없음"
+	}
+
+	/*************************************
+	 * 명령어 (Command)
+	 *************************************/
+	"command main menu"
+	{
+		"ko"				"ucm"
+	}
+
+	"command myinfo"
+	{
+		"ko"				"ucmmyinfo"
+	}
+
+	"command init"
+	{
+		"ko"				"ucminit"
+	}
+
+	/********************************
+	 * 메뉴 (Menu)
+	 ********************************/
+	/*** 공통 ***/
+	"menu common title"
+	{
+		"ko"				"======== UCM ========"
+	}
+
+	"menu common curpos"
+	{
+		"ko"				"위치"
+	}
+
+	/** 메인 메뉴 **/
+	"menu main myinfo"
+	{
+		"ko"				"내 정보"
+	}
+
+	"menu myinfo introduce"
+	{
+		"ko"				"자기 정보입니다."
+	}
+
+	"menu main changeclass"
+	{
+		"ko"				"등급 변경"
+	}
+
+	"menu changeclass select"
+	{
+		"ko"				"등급 선택"
+	}
+
+	"menu main plugininfo"
+	{
+		"ko"				"플러그인 정보"
+	}
+
+	"menu plugininfo cmd"
+	{
+		"ko"				"명령어 정보"
+	}
+
+	"menu plugininfo cmd desc main"
+	{
+		"ko"				"메인 메뉴를 엽니다"
+	}
+
+	"menu plugininfo author"
+	{
+		"ko"				"개발자 정보"
+	}
+
+	"menu plugininfo license"
+	{
+		"ko"				"저작권 정보"
+	}
+
+	"menu plugininfo license detail"
+	{
+		"ko"				"자세한 사항"
+	}
+
+	"menu initdatabase"
+	{
+		"ko"				"데이터베이스 초기화"
+	}
+
+	"menu initdatabase player"
+	{
+		"ko"				"모든 유저 데이터베이스"
+	}
+
+	"menu initdatabase all"
+	{
+		"ko"				"모든 데이터베이스"
+	}
+
+	"menu initdatabase desc"
+	{
+		"ko"				"데이터베이스 초기화를 진행할 것입니다."
+	}
+
+	"menu initdatabase descmore"
+	{
+		"ko"				"진행 후에는 데이터를 다시 복구 할 수 없습니다."
+	}
+
+	"menu initdatabase critical"
+	{
+		"ko"				"*중요* 모든 등급 목록 및 유저 프로필도 같이 삭제됩니다!"
+	}
+
+	"menu initdatabase process"
+	{
+		"ko"				"진행"
+	}
+
+	/*************************************
+	 * 시스템 (System)
+	 *************************************/
+	"system user change class client"
+	{
+		"#format"			"{1:s},{2:s}"
+		"ko"				"'{1}'님을 '{2}' 등급으로 변경하였습니다."
+	}
+
+	"system user change class target"
+	{
+		"#format"			"{1:s},{2:s}"
+		"ko"				"'{1}'님이 당신을 '{2}' 등급으로 변경하였습니다."
+	}
+
+	"system initdatabase complete"
+	{
+		"ko"				"데이터 초기화가 완료되었습니다."
+	}
+
+	/*************************************
+	 * 오류 (Error)
+	 *************************************/
+	/*** 공통 ***/
+	"error occurred"
+	{
+		"ko"				"오류 발생"
+	}
+
+	"error desc"
+	{
+		"ko"				"오류 원인"
+	}
+
+	"error sqlstatus server"
+	{
+		"ko"				"서버의 데이터베이스 상태가 활성화되어 있지 않습니다."
+	}
+
+	"error sqlstatus user"
+	{
+		"ko"				"해당 유저의 데이터베이스 상태가 활성화되어 있지 않습니다."
+	}
+
+	/** 명령어 **/
+	"error command noaction"
+	{
+		"ko"				"행동 구분이 없습니다. 행동을 입력해주세요."
+	}
+
+	"error command notarget"
+	{
+		"ko"				"찾을 대상의 이름을 적어주세요. 이름의 일부를 적어도 됩니다."
+	}
+
+	"error command notarget nodqm"
+	{
+		"ko"				"파라메터는 쌍따옴표로 묶어서 입력해주세요."
+	}
+
+	"error command notarget ingame"
+	{
+		"ko"				"해당하는 대상이 게임 내에 없습니다."
+	}
+
+	"error command notarget more"
+	{
+		"ko"				"해당하는 대상이 2명 이상입니다. 좀 더 정확히 입력해주세요."
+	}
+
+	"error command myinfo usage"
+	{
+		"ko"				"사용법: !{1} <대상>"
+	}
+
+	/** 오류 종류 **/
+	"error sql usrprofile load"
+	{
+		"ko"				"유저 프로필 정보를 로드하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile make"
+	{
+		"ko"				"유저 프로필 정보를 생성하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile cnupdate"
+	{
+		"ko"				"유저가 접속 후 프로필을 갱신하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile dnupdate"
+	{
+		"ko"				"유저가 접속 해제 후 프로필을 갱신하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile invalid"
+	{
+		"ko"				"유저 프로필 정보를 로드하면서 적절하지 않은 데이터가 발생했습니다."
+	}
+
+	"error sql initdata alldb"
+	{
+		"ko"				"모든 데이터베이스를 초기화하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql initdata alluser"
+	{
+		"ko"				"모든 유저의 데이터베이스를 초기화하는 도중 오류가 발생했습니다."
+	}
+}

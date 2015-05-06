@@ -1,0 +1,801 @@
+"Phrases"
+{
+	/*************************************
+	 * 공통 (Common)
+	 *************************************/
+	"global item"
+	{
+		"en"				"Item"
+	}
+
+	"global nickname"
+	{
+		"en"				"Nickname"
+	}
+
+	"global authid"
+	{
+		"en"				"AuthID"
+	}
+
+	"global money"
+	{
+		"en"				"Money"
+	}
+
+	"global none"
+	{
+		"en"				"None"
+	}
+
+	"global nothing"
+	{
+		"en"				"Nothing"
+	}
+
+	"global name"
+	{
+		"en"				"Name"
+	}
+
+	"global confirm"
+	{
+		"en"				"Confirm"
+	}
+
+	"global cancel"
+	{
+		"en"				"Cancel"
+	}
+
+	"global use"
+	{
+		"en"				"Use"
+	}
+
+	"global resell"
+	{
+		"en"				"Resell"
+	}
+
+	"global gift"
+	{
+		"en"				"Gift"
+	}
+
+	"global drop"
+	{
+		"en"				"Drop"
+	}
+
+	"global applied"
+	{
+		"en"				"Applied"
+	}
+
+	"global target"
+	{
+		"en"				"Target"
+	}
+
+	"global category"
+	{
+		"en"				"Category"
+	}
+
+	"global warning"
+	{
+		"en"				"Warning"
+	}
+
+	/*************************************
+	 * 명령어 (Command)
+	 *************************************/
+	"command main menu"
+	{
+		"en"				"dds"
+	}
+
+	"command profile"
+	{
+		"en"				"dds_profile"
+	}
+
+	"command gift"
+	{
+		"en"				"dds_gift"
+	}
+
+	"command moneygive"
+	{
+		"en"				"dds_moneygive"
+	}
+
+	"command moneytakeaway"
+	{
+		"en"				"dds_moneytakeaway"
+	}
+
+	"command itemgive"
+	{
+		"en"				"dds_itemgive"
+	}
+
+	"command itemtakeaway"
+	{
+		"en"				"dds_itemtakeaway"
+	}
+
+	"command init"
+	{
+		"en"				"dds_init"
+	}
+
+	/*************************************
+	 * 채팅 (Chat)
+	 *************************************/
+	"chat display dead"
+	{
+		"en"				"DEAD"
+	}
+
+	"chat display spec"
+	{
+		"en"				"SPEC"
+	}
+
+	"chat display red"
+	{
+		"en"				"Terrorist"
+	}
+
+	"chat display blue"
+	{
+		"en"				"Counter-Terrorist"
+	}
+
+	/*************************************
+	 * 메뉴 (Menu)
+	 *************************************/
+	/*** 공통 ***/
+	"menu common title"
+	{
+		"en"				"======== DDS ========"
+	}
+
+	"menu common curpos"
+	{
+		"en"				"Pos"
+	}
+
+	/** 메인 메뉴 **/
+	"menu main myprofile"
+	{
+		"en"				"My Profile"
+	}
+
+	"menu myprofile introduce"
+	{
+		"en"				"This is your Profile page"
+	}
+
+	"menu main mycuritem"
+	{
+		"en"				"My Applied Item"
+	}
+
+	"menu mycuritem applied"
+	{
+		"en"				"Applied"
+	}
+
+	"menu mycuritem apply cancel"
+	{
+		"en"				"Cancel Applied"
+	}
+
+	"menu main myinven"
+	{
+		"en"				"My Inventory"
+	}
+
+	"menu main myinven check"
+	{
+		"en"				"Check"
+	}
+
+	"menu myinven info"
+	{
+		"en"				"Here is this item info."
+	}
+
+	"menu main buyitem"
+	{
+		"en"				"Buy Items"
+	}
+
+	"menu main buyitem category"
+	{
+		"en"				"Category"
+	}
+
+	"menu main buyitem check"
+	{
+		"en"				"Check"
+	}
+
+	"menu buyitem willbuy"
+	{
+		"en"				"You will buy this item."
+	}
+
+	"menu main setting"
+	{
+		"en"				"Settings"
+	}
+
+	"menu setting system"
+	{
+		"en"				"System Settings"
+	}
+
+	"menu setting item"
+	{
+		"en"				"Item Settings"
+	}
+
+	"menu setting status active"
+	{
+		"en"				"Active"
+	}
+
+	"menu setting status inactive"
+	{
+		"en"				"Inactive"
+	}
+
+	"menu main plugininfo"
+	{
+		"en"				"Plugin Information"
+	}
+
+	"menu plugininfo cmd"
+	{
+		"en"				"Command Info"
+	}
+
+	"menu plugininfo cmd desc main"
+	{
+		"en"				"Opens a Main Menu"
+	}
+
+	"menu plugininfo cmd desc gift"
+	{
+		"en"				"Gives my money or item to someone."
+	}
+
+	"menu plugininfo author"
+	{
+		"en"				"Author Info"
+	}
+
+	"menu plugininfo license"
+	{
+		"en"				"License Info"
+	}
+
+	"menu plugininfo license detail"
+	{
+		"en"				"Detail"
+	}
+
+	"menu itemgift"
+	{
+		"en"				"Item Gift"
+	}
+
+	"menu itemgive"
+	{
+		"en"				"Item Give"
+	}
+
+	"menu itemtakeaway"
+	{
+		"en"				"Item Seize"
+	}
+
+	"menu initdatabase"
+	{
+		"en"				"Initialize Database"
+	}
+
+	"menu initdatabase player"
+	{
+		"en"				"Only All Player Databases"
+	}
+
+	"menu initdatabase all"
+	{
+		"en"				"All Databases"
+	}
+
+	"menu initdatabase desc"
+	{
+		"en"				"This will process initializing."
+	}
+
+	"menu initdatabase descmore"
+	{
+		"en"				"You can't recover datas after processing again."
+	}
+
+	"menu initdatabase critical"
+	{
+		"en"				"THIS WILL ALSO REMOVE *ALL ITEM LIST and CATEGORY LIST*!"
+	}
+
+	"menu initdatabase process"
+	{
+		"en"				"Process"
+	}
+
+	/*************************************
+	 * 시스템 (System)
+	 *************************************/
+	"system user buy"
+	{
+	 	"#format"			"{1:s},{2:s},{3:t}"
+	 	"en"				"You have bought '[{1}] {2}' {3}."
+	}
+
+	"system user curitem cancel"
+	{
+		"#format"			"{1:s},{2:s},{3:t}"
+		"en"				"You have canceled '[{1}] {2}' {3}."
+	}
+
+	"system user inven use prev"
+	{
+		"#format"			"{1:s},{2:s},{3:t}"
+		"en"				"You have canceled '[{1}] {2}' {3}."
+	}
+
+	"system user inven use after"
+	{
+		"#format"			"{1:s},{2:s},{3:t}"
+		"en"				"You have applied '[{1}] {2}' {3}."
+	}
+
+	"system user inven resell"
+	{
+		"#format"			"{1:s},{2:s},{3:d},{4:t},{5:t}"
+		"en"				"You have taken {3} {4} by reselling '[{1}] {2}' {5}."
+	}
+
+	"system user inven resell function"
+	{
+		"en"				"Item resell function is not available due to plugin settings."
+	}
+
+	"system user inven gift function"
+	{
+		"en"				"Item gift function is not available due to plugin settings."
+	}
+
+	"system user inven gift send"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:t}"
+		"en"				"You have gifted '[{1}] {2}' {4} to '{3}'."
+	}
+
+	"system user inven gift take"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:t}"
+		"en"				"You have taken '[{1}] {2}' {4} from '{3}'."
+	}
+
+	"system user inven gift tarerr"
+	{
+		"en"				"Target client is not in game."
+	}
+
+	"system user inven drop"
+	{
+		"#format"			"{1:s},{2:s},{3:t}"
+		"en"				"You have dropped '[{1}] {2}' {3}."
+	}
+
+	"system user money gift function"
+	{
+		"en"				"Money gift function is not available due to plugin settings."
+	}
+
+	"system user money gift send"
+	{
+		"#format"			"{1:d},{2:t},{3:s}"
+		"en"				"You have gifted {1} {2} to '{3}'."
+	}
+
+	"system user money gift take"
+	{
+		"#format"			"{1:d},{2:t},{3:s}"
+		"en"				"You have taken {1} {2} from '{3}'."
+	}
+
+	"system initdatabase complete"
+	{
+		"en"				"Initializing databases is complete."
+	}
+
+	"system user money give tarerr"
+	{
+		"en"				"Target client is not in game."
+	}
+
+	"system user money give send"
+	{
+		"#format"			"{1:s},{2:d},{3:t}"
+		"en"				"You have given {2} {3} to '{1}'."
+	}
+
+	"system user money give take"
+	{
+		"#format"			"{1:s},{2:d},{3:t}"
+		"en"				"You have taken {2} {3} from '{1}'."
+	}
+
+	"system user money takeaway tarerr"
+	{
+		"en"				"Target client is not in game."
+	}
+
+	"system user money takeaway action"
+	{
+		"#format"			"{1:s},{2:d},{3:t}"
+		"en"				"You have seized {2} {3} to '{1}'."
+	}
+
+	"system user item give tarerr"
+	{
+		"en"				"Target client is not in game."
+	}
+
+	"system user item give send"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:t}"
+		"en"				"You have given '[{1}] {2}' {4} to '{3}'."
+	}
+
+	"system user item give take"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:t}"
+		"en"				"You have taken '[{1}] {2}' {4} from '{3}'."
+	}
+
+	"system user item takeaway tarerr"
+	{
+		"en"				"Target client is not in game."
+	}
+
+	"system user item takeaway action"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:t}"
+		"en"				"You have seized '[{1}] {2}' {4} from '{3}'."
+	}
+
+	"system get money kill msg"
+	{
+		"#format"			"{1:s},{2:d},{3:t}"
+		"en"				"You have got {2} {3} by killing '{1}'."
+	}
+
+	"system get money win msg"
+	{
+		"#format"			"{1:d},{2:t}"
+		"en"				"You have got {1} {2} by winning this round."
+	}
+
+	"system get money timestack msg"
+	{
+		"#format"			"{1:d},{2:d},{3:t}"
+		"en"				"You have got {2} {3} due to staying this server(Time Interval: {1})."
+	}
+
+	"system user refdata"
+	{
+		"#format"			"{1:s}"
+		"en"				"'{1}' have set to your data."
+	}
+
+	"system user inven time once drop"
+	{
+		"#format"			"{1:s},{2:s},{3:t}"
+		"en"				"'[{1}] {2}' {3} will be dropped now due to its once-property."
+	}
+
+	"system msg set freetag"
+	{
+		"en"				"Please write your tag to use in chat."
+	}
+
+	/*************************************
+	 * 오류 (Error)
+	 *************************************/
+	/*** 공통 ***/
+	"error occurred"
+	{
+		"en"				"Error Occurred"
+	}
+
+	"error desc"
+	{
+		"en"				"Error Desc"
+	}
+
+	"error money nid"
+	{
+		"#format"			"{1:d},{2:t}"
+		"en"				"You need {1} {2} more."
+	}
+
+	"error money sobig"
+	{
+		"en"				"Money is too huge!"
+	}
+
+	"error sqlstatus server"
+	{
+		"en"				"Server is not available to use database."
+	}
+
+	"error sqlstatus user"
+	{
+		"en"				"You are not available to use database yet."
+	}
+
+	"error access"
+	{
+		"en"				"You do not have access to this command."
+	}
+
+	/** 명령어 **/
+	"error command noaction"
+	{
+		"en"				"Please write the action."
+	}
+
+	"error command notarget"
+	{
+		"en"				"Please write the name you wanna find."
+	}
+
+	"error command notarget nodqm"
+	{
+		"en"				"Please write the name enclosed in double quotes."
+	}
+
+	"error command notarget ingame"
+	{
+		"en"				"The target is not in game."
+	}
+
+	"error command notarget more"
+	{
+		"en"				"The results are more than two people. Please write more accurately."
+	}
+
+	"error command nomoney"
+	{
+		"en"				"Please enter the amount."
+	}
+
+	"error command nomoney nodqm"
+	{
+		"en"				"Please enter the amount enclosed in double quotes."
+	}
+
+	"error command noitem"
+	{
+		"en"				"Please enter the item index."
+	}
+
+	"error command noitem nodqm"
+	{
+		"en"				"Please enter the item index enclosed in double quotes."
+	}
+
+	"error command profile usage"
+	{
+		"#format"			"{1:t}"
+		"en"				"Usage: !{1} <target>"
+	}
+
+	"error command gift usage"
+	{
+		"#format"			"{1:t},{2:t}"
+		"en"				"Usage: !{1} \"{2}\" <target> <amount>"
+	}
+
+	"error command moneygive usage"
+	{
+		"#format"			"{1:t}"
+		"en"				"Usage: !{1} <target> <amount>"
+	}
+
+	"error command moneytakeaway usage"
+	{
+		"#format"			"{1:t}"
+		"en"				"Usage: !{1} <target> <amount>"
+	}
+
+	/** 오류 종류 **/
+	"error sql usrprofile load"
+	{
+		"en"				"An error has occurred while loading the user profile information."
+	}
+
+	"error sql usrprofile make"
+	{
+		"en"				"An error has occurred trying to create the user profile information."
+	}
+
+	"error sql usrprofile make setting"
+	{
+		"en"				"An error has occurred trying to create the user setting information."
+	}
+
+	"error sql usrprofile cnupdate"
+	{
+		"en"				"An error has occurred while connecting and updating the user profile information."
+	}
+
+	"error sql usrprofile dnupdate"
+	{
+		"en"				"An error has occurred while disconnecting and updating the user profile information."
+	}
+
+	"error sql usrprofile invalid"
+	{
+		"en"				"Inappropriate data has occurred while loading user profile information."
+	}
+
+	"error sql usritem applied"
+	{
+		"en"				"An error has occurred while loading user applied item information."
+	}
+
+	"error sql usritem curitem"
+	{
+		"en"				"An error has occurred while loading the user items."
+	}
+
+	"error sql usritem inventory"
+	{
+		"en"				"An error has occurred while loading the user items."
+	}
+
+	"error sql usrsetting load"
+	{
+		"en"				"An error has occurred while loading user setting information."
+	}
+
+	"error sql usrsetting set"
+	{
+		"en"				"An error has occurred while updating user setting information."
+	}
+
+	"error sql itemproc buy"
+	{
+		"en"				"An error has occurred trying to insert user item db with buy."
+	}
+
+	"error sql itemproc buy money"
+	{
+		"en"				"An error has occurred while updating the user's money."
+	}
+
+	"error sql itemproc inven use prev"
+	{
+		"en"				"An error has occurred while updating the previous applied user item."
+	}
+
+	"error sql itemproc inven use after"
+	{
+		"en"				"An error has occurred while updating apply user item."
+	}
+
+	"error sql itemproc curitem cancel"
+	{
+		"en"				"An error has occurred while updating the previous applied user item."
+	}
+
+	"error sql itemproc inven drop"
+	{
+		"en"				"An error has occurred while deleting user item."
+	}
+
+	"error sql itemproc inven gift"
+	{
+		"en"				"An error has occurred while sending a item gift."
+	}
+
+	"error sql itemproc inven gift target"
+	{
+		"en"				"An error has occurred while taking a item gift."
+	}
+
+	"error sql itemproc money gift"
+	{
+		"en"				"An error has occurred while sending a money gift."
+	}
+
+	"error sql itemproc money gift target"
+	{
+		"en"				"An error has occurred while sending a money gift."
+	}
+
+	"error sql itemproc inven resell"
+	{
+		"en"				"An error has occurred while selling this item and deleting."
+	}
+
+	"error sql itemproc inven resell money"
+	{
+		"en"				"An error has occurred while updating user money."
+	}
+
+	"error sql log"
+	{
+		"en"				"An error has occurred trying to insert user data log."
+	}
+
+	"error sql initdata alldb"
+	{
+		"en"				"An error has occurred while deleting all database records."
+	}
+
+	"error sql initdata alluser"
+	{
+		"en"				"An error has occurred while deleting all user database records."
+	}
+
+	"error sql itemproc item give"
+	{
+		"en"				"An error has occurred trying to insert user item by giving item."
+	}
+
+	"error sql itemproc item takeaway"
+	{
+		"en"				"An error has occurred while deleting user item by seizing user item."
+	}
+
+	"error sql itemproc money update"
+	{
+		"en"				"An error has occurred while updating user money."
+	}
+
+	"error sql itemtakeaway list"
+	{
+		"en"				"An error has occurred while loading the user items."
+	}
+
+	"error sql user refdata"
+	{
+		"en"				"An error has occurred while updating user profile by setting ref data."
+	}
+
+	"error sql user money give"
+	{
+		"en"				"An error has occurred while updating user profile by giving user money."
+	}
+
+	"error sql user money takeaway"
+	{
+		"en"				"An error has occurred while updating user profile by sezing user money."
+	}
+
+	"error sql usrprofile load havtime"
+	{
+		"en"				"An error has occurred while loading hav time property of a user specific item."
+	}
+}

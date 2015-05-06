@@ -1,0 +1,14 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Offsets"
+		{
+			"Weapon_ShootPosition"
+			{
+				"windows"	"264"
+				"linux"		"265"
+			}
+		}
+	}
+}

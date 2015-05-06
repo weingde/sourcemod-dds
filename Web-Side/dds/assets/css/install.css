@@ -1,0 +1,168 @@
+/**
+ * Stylesheet - Install
+ *
+ * Author By. Eakgnarok
+ * 
+ * This Stylesheet is for dynamic dollar shop web panel.
+ *
+ */
+@import "common.css";
+
+/*************************************
+ * LAYOUT POSITION
+**************************************/
+#setup {
+    position: relative;
+}
+#setup .header .title,
+#setup .header .step,
+#setup .contents .buttongrp {
+    position: absolute;
+}
+#copyright {
+    position: fixed;
+}
+
+#setup {
+    margin: 0px auto;
+    top: 150px;
+}
+#setup .header .title {
+    top: 13px;
+    left: 15px;
+}
+#setup .header .step {
+    top: 8px;
+    right: 5px;
+}
+#setup .contents .buttongrp {
+    bottom: 15px;
+}
+
+#copyright {
+    bottom: 0px;
+    right: 0px;
+}
+
+/*************************************
+ * DEFAULT MAIN SET
+**************************************/
+body {
+    background: url('../../images/bg.jpg');
+}
+
+strong {
+    font-weight: bold;
+}
+
+/*************************************
+ * [setup]
+**************************************/
+#setup {
+    max-width: 700px;
+    min-height: 500px;
+    border: 1px solid #a6a6a6;
+    background-color: #f1f1f1;
+}
+
+/*******************
+ * Header
+********************/
+#setup .header {
+    min-height: 60px;
+    background-color: #484848;
+    color: white;
+}
+#setup .header .title,
+#setup .header .step {
+    cursor: default;
+}
+#setup .header .title {
+    font-size: 2.0em;
+}
+
+/*******************
+ * Contents
+********************/
+#setup .contents {
+    padding: 15px;
+}
+#setup .contents .title {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9b9b9b;
+}
+#setup .contents .detail {
+    font-size: 0.9em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-height: 300px;
+    min-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#setup .contents p {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+#setup .contents textarea {
+    width: 100%;
+    max-width: 643px;
+    min-height: 220px;
+    max-height: 220px;
+    margin: 10px;
+}
+
+#setup .contents li {
+    margin-bottom: 3px;
+    padding-left: 7px;
+    border-left: 5px solid #3BAFDA;
+}
+
+#setup .contents label {
+    margin-right: 10px;
+}
+
+#setup .contents input {
+    width: 260px;
+}
+
+#setup .contents .buttongrp {
+    width: 100%;
+    max-width: 670px;
+    min-height: 30px;
+    padding-top: 10px;
+    text-align: right;
+    border-top: 1px solid #9b9b9b;
+}
+#setup .contents .buttongrp button[name="nosubmit"] {
+    width: 70px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    color: gray;
+    background-color: #EEEEEE;
+    cursor: not-allowed;
+}
+#setup .contents .buttongrp button[name="submit"] {
+    width: 70px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    cursor: pointer;
+}
+#setup .contents .buttongrp button[name="submit"]:hover {
+    background-color: #d5d5d5;
+}

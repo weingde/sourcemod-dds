@@ -1,0 +1,264 @@
+"Phrases"
+{
+	/********************************
+	 * 공통 (Common)
+	 ********************************/
+	"global class"
+	{
+		"en"				"Class"
+	}
+
+	"global nickname"
+	{
+		"en"				"Nickname"
+	}
+
+	"global authid"
+	{
+		"en"				"AuthID"
+	}
+
+	"global confirm"
+	{
+		"en"				"Confirm"
+	}
+
+	"global cancel"
+	{
+		"en"				"Cancel"
+	}
+
+	"global nothing"
+	{
+		"en"				"Nothing"
+	}
+
+	/*************************************
+	 * 명령어 (Command)
+	 *************************************/
+	"command main menu"
+	{
+		"en"				"ucm"
+	}
+
+	"command myinfo"
+	{
+		"en"				"ucmmyinfo"
+	}
+
+	"command init"
+	{
+		"en"				"ucminit"
+	}
+
+	/********************************
+	 * 메뉴 (Menu)
+	 ********************************/
+	/*** 공통 ***/
+	"menu common title"
+	{
+		"en"				"======== UCM ========"
+	}
+
+	"menu common curpos"
+	{
+		"en"				"Pos"
+	}
+
+	/** 메인 메뉴 **/
+	"menu main myinfo"
+	{
+		"en"				"My Info"
+	}
+
+	"menu myinfo introduce"
+	{
+		"en"				"This is your Info Page"
+	}
+
+	"menu main changeclass"
+	{
+		"en"				"Change Class"
+	}
+
+	"menu changeclass select"
+	{
+		"en"				"Select Class"
+	}
+
+	"menu main plugininfo"
+	{
+		"en"				"Plugin Information"
+	}
+
+	"menu plugininfo cmd"
+	{
+		"en"				"Command Info"
+	}
+
+	"menu plugininfo cmd desc main"
+	{
+		"en"				"Opens a Main Menu"
+	}
+
+	"menu plugininfo author"
+	{
+		"en"				"Author Info"
+	}
+
+	"menu plugininfo license"
+	{
+		"en"				"License Info"
+	}
+
+	"menu plugininfo license detail"
+	{
+		"en"				"Detail"
+	}
+
+	"menu initdatabase"
+	{
+		"en"				"Initialize Database"
+	}
+
+	"menu initdatabase player"
+	{
+		"en"				"Only All Player Databases"
+	}
+
+	"menu initdatabase all"
+	{
+		"en"				"All Databases"
+	}
+
+	"menu initdatabase desc"
+	{
+		"en"				"This will process initializing."
+	}
+
+	"menu initdatabase descmore"
+	{
+		"en"				"You can't recover datas after processing again."
+	}
+
+	"menu initdatabase critical"
+	{
+		"en"				"THIS WILL ALSO REMOVE *ALL CLASS LIST and USER PROFILE LIST*!"
+	}
+
+	"menu initdatabase process"
+	{
+		"en"				"Process"
+	}
+
+	/*************************************
+	 * 시스템 (System)
+	 *************************************/
+	"system user change class client"
+	{
+		"#format"			"{1:s},{2:s}"
+		"en"				"You changed '{1}' to '{2}' class."
+	}
+
+	"system user change class target"
+	{
+		"#format"			"{1:s},{2:s}"
+		"en"				"You are changed to '{2}' class by '{1}'."
+	}
+
+	"system initdatabase complete"
+	{
+		"en"				"Initializing databases is complete."
+	}
+
+	/*************************************
+	 * 오류 (Error)
+	 *************************************/
+	/*** 공통 ***/
+	"error occurred"
+	{
+		"en"				"Error Occurred"
+	}
+
+	"error desc"
+	{
+		"en"				"Error Desc"
+	}
+
+	"error sqlstatus server"
+	{
+		"en"				"Server is not available to use database."
+	}
+
+	"error sqlstatus user"
+	{
+		"en"				"You are not available to use database yet."
+	}
+
+	/** 명령어 **/
+	"error command noaction"
+	{
+		"en"				"Please write the action."
+	}
+
+	"error command notarget"
+	{
+		"en"				"Please write the name you wanna find."
+	}
+
+	"error command notarget nodqm"
+	{
+		"en"				"Please write the name enclosed in double quotes."
+	}
+
+	"error command notarget ingame"
+	{
+		"en"				"The target is not in game."
+	}
+
+	"error command notarget more"
+	{
+		"en"				"The results are more than two people. Please write more accurately."
+	}
+
+	"error command myinfo usage"
+	{
+		"en"				"Usage: !{1} <target>"
+	}
+
+	/** 오류 종류 **/
+	"error sql usrprofile load"
+	{
+		"en"				"An error has occurred while loading the user profile information."
+	}
+
+	"error sql usrprofile make"
+	{
+		"en"				"An error has occurred trying to create the user profile information."
+	}
+
+	"error sql usrprofile cnupdate"
+	{
+		"en"				"An error has occurred while connecting and updating the user profile information."
+	}
+
+	"error sql usrprofile dnupdate"
+	{
+		"en"				"An error has occurred while disconnecting and updating the user profile information."
+	}
+
+	"error sql usrprofile invalid"
+	{
+		"en"				"Inappropriate data has occurred while loading a user profile information."
+	}
+
+	"error sql initdata alldb"
+	{
+		"en"				"An error has occurred while deleting all database records."
+	}
+
+	"error sql initdata alluser"
+	{
+		"en"				"An error has occurred while deleting all user database records."
+	}
+}

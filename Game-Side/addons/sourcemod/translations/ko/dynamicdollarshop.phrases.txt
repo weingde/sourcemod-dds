@@ -1,0 +1,775 @@
+"Phrases"
+{
+	/*************************************
+	 * 공통 (Common)
+	 *************************************/
+	"global item"
+	{
+		"ko"				"아이템"
+	}
+
+	"global nickname"
+	{
+		"ko"				"닉네임"
+	}
+
+	"global authid"
+	{
+		"ko"				"인증번호"
+	}
+
+	"global money"
+	{
+		"ko"				"달러"
+	}
+
+	"global none"
+	{
+		"ko"				"없음"
+	}
+
+	"global nothing"
+	{
+		"ko"				"없음"
+	}
+
+	"global name"
+	{
+		"ko"				"이름"
+	}
+
+	"global confirm"
+	{
+		"ko"				"확인"
+	}
+
+	"global cancel"
+	{
+		"ko"				"취소"
+	}
+
+	"global use"
+	{
+		"ko"				"사용하기"
+	}
+
+	"global resell"
+	{
+		"ko"				"되팔기"
+	}
+
+	"global gift"
+	{
+		"ko"				"선물하기"
+	}
+
+	"global drop"
+	{
+		"ko"				"버리기"
+	}
+
+	"global applied"
+	{
+		"ko"				"장착중"
+	}
+
+	"global target"
+	{
+		"ko"				"대상"
+	}
+
+	"global category"
+	{
+		"ko"				"종류"
+	}
+
+	"global warning"
+	{
+		"ko"				"경고"
+	}
+
+	/*************************************
+	 * 명령어 (Command)
+	 *************************************/
+	"command main menu"
+	{
+		"ko"				"달러샵"
+	}
+
+	"command profile"
+	{
+		"ko"				"정보"
+	}
+
+	"command gift"
+	{
+		"ko"				"선물"
+	}
+
+	"command moneygive"
+	{
+		"ko"				"금액주기"
+	}
+
+	"command moneytakeaway"
+	{
+		"ko"				"금액뺏기"
+	}
+
+	"command itemgive"
+	{
+		"ko"				"아이템주기"
+	}
+
+	"command itemtakeaway"
+	{
+		"ko"				"아이템뺏기"
+	}
+
+	"command init"
+	{
+		"ko"				"초기화"
+	}
+
+	/*************************************
+	 * 채팅 (Chat)
+	 *************************************/
+	"chat display dead"
+	{
+		"ko"				"사망"
+	}
+
+	"chat display spec"
+	{
+		"ko"				"관전"
+	}
+
+	"chat display red"
+	{
+		"ko"				"테러리스트"
+	}
+
+	"chat display blue"
+	{
+		"ko"				"대테러부대"
+	}
+
+	/*************************************
+	 * 메뉴 (Menu)
+	 *************************************/
+	/*** 공통 ***/
+	"menu common title"
+	{
+		"ko"				"======== DDS ========"
+	}
+
+	"menu common curpos"
+	{
+		"ko"				"위치"
+	}
+
+	/** 메인 메뉴 **/
+	"menu main myprofile"
+	{
+		"ko"				"내 프로필"
+	}
+
+	"menu myprofile introduce"
+	{
+		"ko"				"프로필 정보입니다."
+	}
+
+	"menu main mycuritem"
+	{
+		"ko"				"내 장착한 아이템"
+	}
+
+	"menu mycuritem applied"
+	{
+		"ko"				"장착한"
+	}
+
+	"menu mycuritem apply cancel"
+	{
+		"ko"				"장착 해제"
+	}
+
+	"menu main myinven"
+	{
+		"ko"				"내 인벤토리"
+	}
+
+	"menu main myinven check"
+	{
+		"ko"				"확인"
+	}
+
+	"menu myinven info"
+	{
+		"ko"				"해당 아이템 정보입니다."
+	}
+
+	"menu main buyitem"
+	{
+		"ko"				"아이템 구매"
+	}
+
+	"menu main buyitem category"
+	{
+		"ko"				"항목"
+	}
+
+	"menu main buyitem check"
+	{
+		"ko"				"확인"
+	}
+
+	"menu buyitem willbuy"
+	{
+		"ko"				"선택한 아이템을 구매합니다."
+	}
+
+	"menu main setting"
+	{
+		"ko"				"설정"
+	}
+
+	"menu setting system"
+	{
+		"ko"				"시스템 설정"
+	}
+
+	"menu setting item"
+	{
+		"ko"				"아이템 설정"
+	}
+
+	"menu setting status active"
+	{
+		"ko"				"활성화"
+	}
+
+	"menu setting status inactive"
+	{
+		"ko"				"비활성화"
+	}
+
+	"menu main plugininfo"
+	{
+		"ko"				"플러그인 정보"
+	}
+
+	"menu plugininfo cmd"
+	{
+		"ko"				"명령어 정보"
+	}
+
+	"menu plugininfo cmd desc main"
+	{
+		"ko"				"메인 메뉴를 엽니다"
+	}
+
+	"menu plugininfo cmd desc gift"
+	{
+		"ko"				"자기의 금액이나 아이템을 누군가에게 줍니다."
+	}
+
+	"menu plugininfo author"
+	{
+		"ko"				"개발자 정보"
+	}
+
+	"menu plugininfo license"
+	{
+		"ko"				"저작권 정보"
+	}
+
+	"menu plugininfo license detail"
+	{
+		"ko"				"자세한 사항"
+	}
+
+	"menu itemgift"
+	{
+		"ko"				"아이템 선물"
+	}
+
+	"menu itemgive"
+	{
+		"ko"				"아이템 주기"
+	}
+
+	"menu itemtakeaway"
+	{
+		"ko"				"아이템 뺏기"
+	}
+
+	"menu initdatabase"
+	{
+		"ko"				"데이터베이스 초기화"
+	}
+
+	"menu initdatabase player"
+	{
+		"ko"				"모든 유저 데이터베이스"
+	}
+
+	"menu initdatabase all"
+	{
+		"ko"				"모든 데이터베이스"
+	}
+
+	"menu initdatabase desc"
+	{
+		"ko"				"데이터베이스 초기화를 진행할 것입니다."
+	}
+
+	"menu initdatabase descmore"
+	{
+		"ko"				"진행 후에는 데이터를 다시 복구 할 수 없습니다."
+	}
+
+	"menu initdatabase critical"
+	{
+		"ko"				"*중요* 모든 아이템 목록 및 종류도 같이 삭제됩니다!"
+	}
+
+	"menu initdatabase process"
+	{
+		"ko"				"진행"
+	}
+
+	/*************************************
+	 * 시스템 (System)
+	 *************************************/
+	"system user buy"
+	{
+	 	"ko"				"'[{1}] {2}' {3}을 구매하였습니다."
+	}
+
+	"system user curitem cancel"
+	{
+		"ko"				"'[{1}] {2}' {3}을 장착 해제하였습니다."
+	}
+
+	"system user inven use prev"
+	{
+		"ko"				"'[{1}] {2}' {3}을 장착 해제하였습니다."
+	}
+
+	"system user inven use after"
+	{
+		"ko"				"'[{1}] {2}' {3}을 장착했습니다."
+	}
+
+	"system user inven resell"
+	{
+		"ko"				"'[{1}] {2}' {5}을 되팔아 {3} {4}을(를) 얻었습니다."
+	}
+
+	"system user inven resell function"
+	{
+		"ko"				"서버 설정에서 아이템 되팔기 기능이 활성화되지 않았습니다."
+	}
+
+	"system user inven gift function"
+	{
+		"ko"				"서버 설정에서 아이템 선물 기능이 활성화되지 않았습니다."
+	}
+
+	"system user inven gift send"
+	{
+		"ko"				"'{3}'님에게 '[{1}] {2}' {4}을 선물하였습니다."
+	}
+
+	"system user inven gift take"
+	{
+		"ko"				"'{3}'님으로부터 '[{1}] {2}' {4}을 받았습니다."
+	}
+
+	"system user inven gift tarerr"
+	{
+		"ko"				"대상 클라이언트가 게임 내에 없습니다."
+	}
+
+	"system user inven drop"
+	{
+		"ko"				"'[{1}] {2}' {3}을 버렸습니다."
+	}
+
+	"system user money gift function"
+	{
+		"ko"				"서버 설정에서 금액 선물 기능이 활성화되지 않았습니다."
+	}
+
+	"system user money gift send"
+	{
+		"ko"				"'{3}'님에게 {1} {2}을(를) 선물하였습니다."
+	}
+
+	"system user money gift take"
+	{
+		"ko"				"'{3}'님으로부터 {1} {2}을(를) 받았습니다."
+	}
+
+	"system initdatabase complete"
+	{
+		"ko"				"데이터 초기화가 완료되었습니다."
+	}
+
+	"system user money give tarerr"
+	{
+		"ko"				"대상 클라이언트가 게임 내에 없습니다."
+	}
+
+	"system user money give send"
+	{
+		"ko"				"'{1}'님에게 {1} {2}을(를) 주었습니다."
+	}
+
+	"system user money give take"
+	{
+		"ko"				"'{1}'님으로부터 {1} {2}을(를) 받았습니다."
+	}
+
+	"system user money takeaway tarerr"
+	{
+		"ko"				"대상 클라이언트가 게임 내에 없습니다."
+	}
+
+	"system user money takeaway action"
+	{
+		"ko"				"'{1}'님으로부터 {2} {3}을(를) 빼앗았습니다."
+	}
+
+	"system user item give tarerr"
+	{
+		"ko"				"대상 클라이언트가 게임 내에 없습니다."
+	}
+
+	"system user item give send"
+	{
+		"ko"				"'{3}'님에게 '[{1}] {2}'을(를) 주었습니다."
+	}
+
+	"system user item give take"
+	{
+		"ko"				"'{3}'님으로부터 '[{1}] {2}'을(를) 받았습니다."
+	}
+
+	"system user item takeaway tarerr"
+	{
+		"ko"				"대상 클라이언트가 게임 내에 없습니다."
+	}
+
+	"system user item takeaway action"
+	{
+		"ko"				"'{3}'님으로부터 '[{1}] {2}' {4}을(를) 빼앗았습니다."
+	}
+
+	"system get money kill msg"
+	{
+		"ko"				"'{1}'님을 죽여 {2} {3}을(를) 얻었습니다."
+	}
+
+	"system get money win msg"
+	{
+		"ko"				"라운드에서 승리하여 {1} {2}을(를) 얻었습니다."
+	}
+
+	"system get money timestack msg"
+	{
+		"ko"				"서버에 계속 머물러 있어 {2} {3}을(를) 얻었습니다(시간간격: {1})."
+	}
+
+	"system user refdata"
+	{
+		"ko"				"'{1}'라는 데이터를 추가하였습니다."
+	}
+
+	"system user inven time once drop"
+	{
+		"ko"				"일회용 속성이 사라져 '[{1}] {2}' {3}이(가) 버려집니다."
+	}
+
+	"system msg set freetag"
+	{
+		"ko"				"채팅에서 사용할 태그를 입력해주세요."
+	}
+
+	/*************************************
+	 * 오류 (Error)
+	 *************************************/
+	/*** 공통 ***/
+	"error occurred"
+	{
+		"ko"				"오류 발생"
+	}
+
+	"error desc"
+	{
+		"ko"				"오류 원인"
+	}
+
+	"error money nid"
+	{
+		"ko"				"{1} {2}이(가) 부족합니다."
+	}
+
+	"error money sobig"
+	{
+		"ko"				"금액이 너무 많습니다!"
+	}
+
+	"error sqlstatus server"
+	{
+		"ko"				"서버의 데이터베이스 상태가 활성화되어 있지 않습니다."
+	}
+
+	"error sqlstatus user"
+	{
+		"ko"				"해당 유저의 데이터베이스 상태가 활성화되어 있지 않습니다."
+	}
+
+	"error access"
+	{
+		"ko"				"이 명령어를 실행할 권한이 없습니다."
+	}
+
+	/** 명령어 **/
+	"error command noaction"
+	{
+		"ko"				"행동 구분이 없습니다. 행동을 입력해주세요."
+	}
+
+	"error command notarget"
+	{
+		"ko"				"찾을 대상의 이름을 적어주세요. 이름의 일부를 적어도 됩니다."
+	}
+
+	"error command notarget nodqm"
+	{
+		"ko"				"파라메터는 쌍따옴표로 묶어서 입력해주세요."
+	}
+
+	"error command notarget ingame"
+	{
+		"ko"				"해당하는 대상이 게임 내에 없습니다."
+	}
+
+	"error command notarget more"
+	{
+		"ko"				"해당하는 대상이 2명 이상입니다. 좀 더 정확히 입력해주세요."
+	}
+
+	"error command nomoney"
+	{
+		"ko"				"금액을 입력해주세요."
+	}
+
+	"error command nomoney nodqm"
+	{
+		"ko"				"금액을 쌍따옴표로 묶어서 입력해주세요."
+	}
+
+	"error command noitem"
+	{
+		"ko"				"아이템 번호를 입력해주세요."
+	}
+
+	"error command noitem nodqm"
+	{
+		"ko"				"아이템 번호를 쌍따옴표로 묶어서 입력해주세요."
+	}
+
+	"error command profile usage"
+	{
+		"ko"				"사용법: !{1} <대상>"
+	}
+
+	"error command gift usage"
+	{
+		"ko"				"사용법: !{1} \"{2}\" <대상> <값>"
+	}
+
+	"error command moneygive usage"
+	{
+		"ko"				"사용법: !{1} <대상> <값>"
+	}
+
+	"error command moneytakeaway usage"
+	{
+		"ko"				"사용법: !{1} <대상> <값>"
+	}
+
+	/** 오류 종류 **/
+	"error sql usrprofile load"
+	{
+		"ko"				"유저 프로필 정보를 로드하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile make"
+	{
+		"ko"				"유저 프로필 정보를 생성하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile make setting"
+	{
+		"ko"				"유저 설정 정보를 생성하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile cnupdate"
+	{
+		"ko"				"유저가 접속 후 프로필을 갱신하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile dnupdate"
+	{
+		"ko"				"유저가 접속 해제 후 프로필을 갱신하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile invalid"
+	{
+		"ko"				"유저 프로필 정보를 로드하면서 적절하지 않은 데이터가 발생했습니다."
+	}
+
+	"error sql usritem applied"
+	{
+		"ko"				"유저 장착 아이템 정보를 로드하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usritem curitem"
+	{
+		"ko"				"유저 아이템 정보를 로드하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usritem inventory"
+	{
+		"ko"				"유저 아이템 정보를 로드하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrsetting load"
+	{
+		"ko"				"유저 설정 정보를 로드하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrsetting set"
+	{
+		"ko"				"유저 설정 정보를 갱신하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql itemproc buy"
+	{
+		"ko"				"구입하는 아이템 정보를 저장하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc buy money"
+	{
+		"ko"				"유저의 금액을 갱신하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc inven use prev"
+	{
+		"ko"				"기존 아이템의 장착 해제 정보를 갱신하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc inven use after"
+	{
+		"ko"				"해당 아이템의 장착 정보를 갱신하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc curitem cancel"
+	{
+		"ko"				"기존 아이템의 장착 해제 정보를 갱신하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc inven drop"
+	{
+		"ko"				"해당 아이템을 버리려고 삭제하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql itemproc inven gift"
+	{
+		"ko"				"선물을 위해 해당 아이템을 삭제하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc inven gift target"
+	{
+		"ko"				"선물을 받아 아이템을 등록하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc money gift"
+	{
+		"ko"				"선물을 위해 금액을 갱신하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc money gift target"
+	{
+		"ko"				"선물을 받아 금액을 갱신하면서 오류가 발생했습니다."
+	}
+
+	"error sql itemproc inven resell"
+	{
+		"ko"				"해당 아이템을 되팔려고 삭제하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql itemproc inven resell money"
+	{
+		"ko"				"해당 아이템을 되팔고 금액을 얻는 도중 오류가 발생했습니다."
+	}
+
+	"error sql log"
+	{
+		"ko"				"데이터 로그를 작성하는 도중 오류가 발생하였습니다."
+	}
+
+	"error sql initdata alldb"
+	{
+		"ko"				"모든 데이터베이스를 초기화하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql initdata alluser"
+	{
+		"ko"				"모든 유저의 데이터베이스를 초기화하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql itemproc item give"
+	{
+		"ko"				"아이템을 주면서 데이터를 작성하는 도중 오류가 발생하였습니다."
+	}
+
+	"error sql itemproc item takeaway"
+	{
+		"ko"				"아이템을 빼앗으면서 데이터를 삭제하는 도중 오류가 발생하였습니다."
+	}
+
+	"error sql itemproc money update"
+	{
+		"ko"				"유저의 금액을 갱신하는 도중 오류가 발생했습니다."
+	}
+
+	"error sql itemtakeaway list"
+	{
+		"ko"				"유저 아이템을 뺏기 위해 목록을 불러오면서 오류가 발생하였습니다."
+	}
+
+	"error sql user refdata"
+	{
+		"ko"				"유저 참고 데이터를 갱신하는 도중 오류가 발생하였습니다."
+	}
+
+	"error sql user money give"
+	{
+		"ko"				"유저의 금액을 대상에게 주는 도중 오류가 발생했습니다."
+	}
+
+	"error sql user money takeaway"
+	{
+		"ko"				"유저의 금액을 대상으로부터 빼앗는 도중 오류가 발생했습니다."
+	}
+
+	"error sql usrprofile load havtime"
+	{
+		"ko"				"유저 특정 아이템의 지속 속성 정보를 로드하는 도중 오류가 발생했습니다."
+	}
+}

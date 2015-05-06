@@ -1,0 +1,343 @@
+/**
+ * Stylesheet - Main
+ *
+ * Author By. Eakgnarok
+ * 
+ * This Stylesheet is for dynamic dollar shop web panel.
+ *
+ */
+@import "common.css";
+
+/*************************************
+ * LAYOUT POSITION
+**************************************/
+.header > .container {
+    position: relative;
+}
+
+.header > .container > .page-title,
+.header > .container > .nav-menu {
+    position: absolute;
+}
+.header > .container > .page-title {
+    top: 35px;
+    left: 40px;
+}
+.header > .container > .nav-menu {
+    top: 20px;
+    right: 20px;
+}
+
+section {
+    top: 80px;
+}
+
+footer {
+    position: relative;
+}
+footer > .lang {
+    position: absolute;
+}
+footer > .lang {
+    top: 10px;
+    right: 10px;
+}
+
+/*************************************
+ * [header]
+**************************************/
+.header > .page-title {
+    float: left;
+}
+
+/*************************************
+ * [section]
+**************************************/
+
+
+/*******************
+ * Article
+********************/
+article table {
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #5dacfc;
+    -moz-border-radius-bottom-left: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottom-right: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-collapse: inherit;
+    border-spacing: 0px;
+    overflow: hidden;
+}
+article thead th,
+article tbody td {
+    padding: 10px;
+    cursor: default;
+}
+article thead th {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #5dacfc;
+    border-bottom: 1px solid #888888;
+}
+article tbody tr:nth-child(odd) {
+    background-color: #EAF1FE;
+}
+article tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+article tbody tr:hover {
+    background-color: #D4E2FD;
+}
+article thead th {
+    border-right: 1px solid #a0cfff;
+}
+article tbody td {
+    border-right: 1px solid #888888;
+}
+article th:last-child,
+article td:last-child {
+    border-right: 0;
+}
+article td:first-child {
+    text-align: center;
+}
+
+/*******************
+ * Common things
+********************/
+.pagination {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.box-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.box-sub-title {
+    border-left: 7px solid #a0cfff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 6px;
+}
+
+.border-logon {
+    border-color: #01C7FD;
+}
+.border-logoff {
+    border-color: #888;
+}
+.color-logon {
+    color: #01C7FD;
+}
+.color-logoff {
+    color: #888;
+}
+
+/*******************
+ * <MYINFO>
+********************/
+.myinfo {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #ECBF41; /*#EDDEC1*/
+}
+#myinfo {
+    cursor: default;
+}
+#myinfo .profileimg {
+    float: left;
+    width: 184px;
+    height: 184px;
+    margin-right: 15px;
+    border: 2px solid #888;
+}
+#myinfo .name {
+    margin-bottom: 15px;
+    background-color: #D95656;
+    color: white;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+#myinfo label {
+    margin-right: 10px;
+    line-height: 2.0em;
+}
+#myinfo li {
+    line-height: 1.5em;
+}
+
+/*******************
+ * <BUY>
+********************/
+#buy-list > .buy-mymoney {
+    padding-left: 10px;
+    border-left: 5px solid #777;
+}
+#buy-list > label {
+    font-weight: 600;
+}
+
+/*******************
+ * <ADMIN>
+********************/
+#admin-info {
+    display: none;
+}
+#admin-info .input-line,
+#admin-info .textarea,
+#admin-info input[type="radio"],
+#admin-info button[id*="btn_lang"],
+#admin-info button[id*="btn_env"] {
+    margin-left: 15px;
+}
+
+td span {
+    margin-right: 10px;
+}
+td span:last-child {
+    margin-right: 0px;
+}
+
+#user-invenlist thead th:nth-child(1) {
+    width: 50px;
+}
+#user-invenlist thead th:nth-child(2) {
+    width: 120px;
+}
+#user-invenlist thead th:nth-child(3) {
+    width: 120px;
+}
+#user-invenlist thead th:nth-child(4) {
+    width: 170px;
+}
+#user-invenlist thead th:nth-child(5) {
+    width: 70px;
+}
+#user-invenlist thead th:nth-child(6) {
+    width: 100px;
+}
+
+#user-buylist thead th:nth-child(1) {
+    width: 85px;
+}
+#user-buylist thead th:nth-child(2) {
+    width: 120px;
+}
+#user-buylist thead th:nth-child(3) {
+    width: 120px;
+}
+#user-buylist thead th:nth-child(4) {
+    width: 100px;
+}
+#user-buylist thead th:nth-child(5) {
+    width: 120px;
+}
+#user-buylist thead th:nth-child(6) {
+    width: 80px;
+}
+
+#admin-userlist thead th:nth-child(1) {
+    width: 75px;
+}
+#admin-userlist thead th:nth-child(2) {
+    width: 100px;
+}
+#admin-userlist thead th:nth-child(3) {
+    width: 180px;
+}
+#admin-userlist thead th:nth-child(4) {
+    width: 100px;
+}
+#admin-userlist thead th:nth-child(5) {
+    width: 90px;
+}
+#admin-userlist thead th:nth-child(6) {
+    width: 90px;
+}
+
+#admin-itemlist thead th:nth-child(1) {
+    width: 85px;
+}
+#admin-itemlist thead th:nth-child(2) {
+    width: 120px;
+}
+#admin-itemlist thead th:nth-child(3) {
+    width: 120px;
+}
+#admin-itemlist thead th:nth-child(4) {
+    width: 100px;
+}
+#admin-itemlist thead th:nth-child(5) {
+    width: 120px;
+}
+#admin-itemlist thead th:nth-child(6) {
+    width: 100px;
+}
+#admin-itemlist thead th:nth-child(7) {
+    width: 100px;
+}
+
+#admin-itemcglist thead th:nth-child(1) {
+    width: 120px;
+}
+#admin-itemcglist thead th:nth-child(2) {
+    width: 120px;
+}
+#admin-itemcglist thead th:nth-child(3) {
+    width: 80px;
+}
+#admin-itemcglist thead th:nth-child(4) {
+    width: 100px;
+}
+#admin-itemcglist thead th:nth-child(5) {
+    width: 100px;
+}
+
+#admin-envlist thead th:nth-child(1) {
+    width: 75px;
+}
+#admin-envlist thead th:nth-child(2) {
+    width: 100px;
+}
+#admin-envlist thead th:nth-child(3) {
+    width: 120px;
+}
+#admin-envlist thead th:nth-child(4) {
+    width: 120px;
+}
+#admin-envlist thead th:nth-child(5) {
+    width: 100px;
+}
+
+
+
+/*************************************
+ * [footer]
+**************************************/
+footer {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    border-top: 1px solid #ededed;
+}
+footer > .lang > span {
+    margin-right: 20px;
+}
+footer > .lang > .span:last-child {
+    margin-right: 0px;
+}

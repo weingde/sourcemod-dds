@@ -1,0 +1,33 @@
+@charset "utf8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html {
+	// 
+}
+
+body {
+	font-family: "Nanum Gothic", "Arial", "맑은 고딕", "돋음", "dotum";
+}
+
+.usrlist .table,
+.classlist .table,
+.envlist .table,
+.list-pagin {
+	text-align: center;
+}
+
+.usrlist span,
+.classlist span,
+.envlist span {
+	margin-right: 10px;
+}
+.usrlist span:last-child,
+.classlist span:last-child,
+.envlist span:last-child {
+	margin-right: 0px;
+}
+
+.copyright {
+	padding: 10px;
+	border-top: 1px solid #ededed;
+}

@@ -1,0 +1,89 @@
+/**
+ * Stylesheet - Login
+ *
+ * Author By. Eakgnarok
+ * 
+ * This Stylesheet is for dynamic dollar shop web panel.
+ *
+ */
+@import "common.css";
+
+/*************************************
+ * LAYOUT POSITION
+**************************************/
+#title,
+#login {
+    position: absolute;
+}
+
+#title {
+    top: 200px;
+    left: 100px;
+}
+
+#login {
+    bottom: 200px;
+    right: 140px;
+}
+
+/*************************************
+ * DEFAULT MAIN SET
+**************************************/
+body {
+    background: url('../../images/bg.jpg');
+}
+
+/*******************
+ * [header]
+********************/
+#title h1 {
+    padding: 15px;
+    font-size: 3em;
+    cursor: default;
+    background-color: #303030;
+    color: #f2f2f2;
+}
+
+/*******************
+ * [login]
+********************/
+#login {
+    min-width: 350px;
+    padding: 15px;
+    border: 2px solid #888888;
+    background-color: #f2f2f2;
+}
+#login h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#login p {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+#login button {
+    margin-top: 20px;
+}
+#login li {
+    margin-bottom: 10px;
+}
+#login label,
+#login input {
+    display: block;
+    padding: 10px;
+}
+#login input {
+    font-size: 1.1em;
+    width: 305px;
+    margin-left: 10px;
+}
+
+/*******************
+ * [copyright]
+********************/
+#copyright {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
